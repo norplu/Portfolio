@@ -18,7 +18,7 @@
                 $query = "INSERT INTO articles(title, body)
                           VALUES('$title', '$body');";
 
-                $db->exec($query);
+                $db->exec($query) or die(print_r($db->errorInfo(), true));
         }
 
         function 

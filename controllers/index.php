@@ -13,8 +13,8 @@
         else if($action == 'proj_list') { include('proj_page.php'); } 
         else if($action == 'add_article_form') { include('admin_page.php'); }
         else if($action == 'add_article') {
-                $title = $_GET['title'];
-                $body = $_GET['body'];
+                $title = $_POST['title'];
+                $body = $_POST['body'];
 
                 add_article($title, $body);
 
