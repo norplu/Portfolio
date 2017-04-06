@@ -14,10 +14,11 @@
                         studying Application Software Development. Filler text for now, put stuff
                         in please because I really need too. Cthulhu Ryleh Fhtang 
                         </p>
+                        <a href="?action=add_article_form" class="waves-effect waves-light pink btn">Add</a>
                 </div>
                 <div id="main" class="col m9">
                         <nav>
-                                <div id="header" class="nav-wrapper">
+                                <div id="header" class="nav-wrapper pink">
                                         <!--sideways nav bar hopefully -->
                                         <ul class="left">
                                                 <li><a href="?action=list_articles">Blog</a></li>
