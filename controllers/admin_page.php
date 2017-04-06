@@ -7,8 +7,8 @@
                <textarea id="body" name="body" class="materialize-textarea"></textarea>
                 <label for="body">Body</label>
         </div>
-        <!--<button class="btn waves-effect waves-light pink" type="submit" name="action" value="add_article">
-                Submit  
-        </button> -->
-        <input type="submit" method="get" name="action" value="add_article">
+        <button class="btn waves-effect waves-light pink" type="submit" name="action" value="add_article">
+                <a href="?action=list_articles">Submit</a>
+        </button>
+        <!--<input type="submit" method="get" name="action" value="add_article">-->
 </form>

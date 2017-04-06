@@ -17,6 +17,7 @@
                 $body = $_POST['body'];
 
                 add_article($title, $body);
+                header("Location .?action=list_articles");
 
         }
 
